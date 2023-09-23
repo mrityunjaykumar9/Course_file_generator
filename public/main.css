@@ -1,0 +1,116 @@
+.logo
+{
+margin: 10px auto;
+}
+
+.logo2
+{
+display: none;
+}
+
+.panel-head
+{
+  font-size:18px;
+  font-family: verdana;
+
+}
+.form_logo{
+    width:30px;
+}
+.panel-body {
+    padding: 15px;
+}
+.panel-primary {
+    border:1px solid #337ab7 ;
+    top: 34px;
+    position: relative;
+}
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7;
+    padding: 6px;
+}
+
+
+
+.tab-content > .tab-pane > ul > li,
+.tab-content > .tab-pane > ul > li > a
+{
+  text-indent: -5px;
+  color:#003A6A;
+  font-family: verdana;
+  font-size: 13px;
+  padding:5px;
+}
+
+.tab-content > .tab-pane {
+  background-color: #f9f9f9;
+  border-top: 1px solid #003A6A;
+  min-height:220px;
+  padding-top: 10px;
+}
+
+.tab-content > .tab-pane > ul > li > a:hover
+{
+  color:#990000;
+}
+
+.panels-contents table tbody tr td
+{
+font-family: verdana;
+font-size:13px;
+color:#003A6A;
+}
+.panels-contents table tbody tr td a
+{
+color:#003A6A;
+}
+.panels-contents table tbody tr td a:hover
+{
+color:#990000;
+}
+
+.redirect{
+    color: #337ab7;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.form_btn{
+    margin-top: 7px;
+}
+
+
+
+
+@media (max-width: 767px) {
+	.dropdown-menu.multi-column {
+		min-width: 240px !important;
+		overflow-x: hidden;
+	}
+
+.multi-column-dropdown li a {
+  color:#9D9D9D;
+  font-family:verdana;
+}
+
+  .multi-column-dropdown li a:hover {
+  	text-decoration: none;
+  	color: white;
+    background-color: transparent;
+  	}
+
+    .dropdown-header
+    {
+      color:white;
+      font-family:verdana;
+    }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  font-family: verdana;
+  font-size: 13px;
+}
+
+

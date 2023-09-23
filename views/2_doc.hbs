@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0 20px;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+
+        .mycontainer {
+            border: 5px double;
+            padding: 10px;
+            height: 10in;
+            /* width: 7in; */
+            margin: 10px;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+            font-family: 'Times New Roman', Times, serif;
+            flex-direction: column;
+        }
+        #clg_name{
+            font-size: 18px;
+        }
+        .header {
+            display: flex;
+            /* justify-content: center;
+    aic */
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #index {
+            /* border: 2px solid; */
+            margin-top: 30px;
+        }
+
+        #index h3 {
+            text-align: center;
+            /* font-size: 18px; */
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }
+
+        #index li {
+            padding: 8px 0;
+            font-weight: 600;
+        }
+    </style>
+    <title>Index</title>
+</head>
+
+<body>
+    <div class="mycontainer">
+        <div class="header">
+            <h3 id="clg_name">
+                DR. B.R. AMBEDKAR NATIONAL INSTITUTE OF TECHNOLOGY, JALANDHAR
+            </h3>
+            <h4 id="sub_name">
+                {{sub_name}}
+            </h4>
+            <h5 id="sem">
+                <span>{{programme}}({{branch}})&nbsp;{{semester}}&nbsp;sem</span>
+            </h5>
+        </div>
+        <div id="index">
+            <h3>Index</h3>
+            <ol>
+                <li>Vision, Mission and PEOs of the Department</li>
+                <li>POs and PSOs of the Department</li>
+                <li>Syllabus with COs-POs/PSOs Mapping</li>
+                <li>Time Table</li>
+                <li>Lecture Plan</li>
+                <li>Attendance Record</li>
+                <li>Assignments & Tutorials</li>
+                <li>Question Papers</li>
+                <li>Awarded Grade Sheets</li>
+                <li>Course Articulation Matrix and CO-PO Attainment</li>
+            </ol>
+        </div>
+    </div>
+
+</body>
+
+</html>

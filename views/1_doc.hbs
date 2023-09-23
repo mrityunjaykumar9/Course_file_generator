@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            border: 5px double black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'Times New Roman', Times, serif;
+            margin: 50px;
+            /* height: 1200px; */
+            /* width: 100%; */
+            height: 9in;
+            padding: 40px 0;
+            box-sizing: border-box;
+        }
+
+        #clg_name {
+            font-size: 20px;
+            width: 80%;
+            text-align: center;
+        }
+
+        #mid_sec {
+            text-align: center;
+            margin-top: 70px;
+        }
+
+        #mid_sec p {
+            font-size: 22px;
+            margin: 6px 0;
+            font-weight: 500;
+        }
+
+        #mid_sec h3 {
+            font-size: 25px;
+            margin: 5px 0;
+        }
+
+        #mid_sec h4 {
+            font-size: 20px;
+            margin: 5px 0;
+        }
+
+        #mid_sec #session {
+            margin-top: 8px;
+            font-size: 20px;
+        }
+        .bottom_parent{
+            padding: 50px 0;
+        }
+        #bottom p{
+            margin: 10px 0;
+            display: block;
+        }
+        #bottom {
+            margin: 10px 0 -60px 0;
+            font-size: 20px;
+            position: relative;
+            top: 280px;
+            right: 210px;
+            display: block;
+            float: left;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="clg_name">
+            <h3>DR. B.R. AMBEDKAR NATIONAL INSTITUTE OF TECHNOLOGY JALANDHAR</h3>
+        </div>
+        <div id="mid_sec">
+            <p>Course File </p>
+            <!-- <br> -->
+            <p>of</p>
+            <div id="sub_det">
+                <h3>{{subName}}</h3>
+                <h4>({{courseCode}})</h4>
+                <h4>{{programme}} ({{branch}}) &nbsp;{{semester}} Sem</h4>
+                <p id="session">Session: {{startMonth}}-{{endMonth}} {{year}}</p>
+            </div>
+        </div>
+        <div class="bottom_parent">
+            <div id="bottom">
+                <p>Submitted by</p>
+                <p>{{post}} {{teacherName}}</p>
+                {{!-- <p>{{post}}</p> --}}
+                <p>Dept. of {{branch}}, NIT Jalandhar</p>
+            </div>
+        </div>
+        
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+@media (max-width: 991px)
+{
+  .logo2 { display: none; }
+}
+
+@media (max-width: 767px)
+{
+  .logo { display: none; }
+  .logo2 { display: block; }
+}
+
+@media (max-width: 581px)
+{
+  .logo { display: none; }
+  .logo2 { display: block; }
+}
