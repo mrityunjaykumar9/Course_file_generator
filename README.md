@@ -11,7 +11,7 @@ With this tool, instructors need only upload the necessary files, and a polished
 
 ## Features
 
-This Metadata Extraction Tool supports a wide range of file types, including but not limited to:
+This Course file Generator Tool has following features :
 
 - ### User Friendly 
   It is easy to use and understand for the average user, without requiring any specialized technical knowledge or training. 
